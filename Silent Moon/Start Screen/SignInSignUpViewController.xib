@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AirbnbCerealBold.ttf">
+            <string>AirbnbCerealApp-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInSignUpViewController" customModule="Silent_Moon" customModuleProvider="target">
+            <connections>
+                <outlet property="SignInTapGesture" destination="dca-87-Z3C" id="gRa-98-qRe"/>
+                <outlet property="SignUpButton" destination="woI-Bb-DkY" id="2cN-C3-ppC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FFrame" translatesAutoresizingMaskIntoConstraints="NO" id="8Ci-Bk-aK8">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="504"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group" translatesAutoresizingMaskIntoConstraints="NO" id="hNa-NY-NJ2">
+                    <rect key="frame" x="41" y="130.66666666666666" width="332" height="242.99999999999997"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3D5-SF-xlb">
+                    <rect key="frame" x="127.33333333333333" y="50" width="159.33333333333337" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S i l e n t" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S85-Fl-PcS">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
+                            <fontDescription key="fontDescription" name="AirbnbCerealApp-Bold" family="Airbnb Cereal App" pointSize="16"/>
+                            <color key="textColor" red="0.2470588235" green="0.25490196079999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="0.24705882352941178" green="0.25490196078431371" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="HKh-WQ-tJz">
+                            <rect key="frame" x="68.000000000000014" y="0.0" width="30" height="30"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M o o n" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEF-Rd-wMg">
+                            <rect key="frame" x="106.00000000000001" y="0.0" width="53.333333333333329" height="30"/>
+                            <fontDescription key="fontDescription" name="AirbnbCerealApp-Bold" family="Airbnb Cereal App" pointSize="16"/>
+                            <color key="textColor" red="0.2470588235" green="0.25490196079999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="0.24705882352941178" green="0.25490196078431371" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are what we do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="851-mR-biH">
+                    <rect key="frame" x="71.333333333333343" y="534" width="271.33333333333326" height="36"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                    <color key="textColor" red="0.2470588235" green="0.25490196079999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="0.24705882352941178" green="0.25490196078431371" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thousand of people are using silent moon for smalls meditation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYY-X1-yT5">
+                    <rect key="frame" x="58" y="585" width="298" height="37.333333333333371"/>
+                    <gestureRecognizers/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" red="0.63137254899999995" green="0.64313725489999995" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="0.63137254901960782" green="0.64313725490196072" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="woI-Bb-DkY">
+                    <rect key="frame" x="20" y="701" width="374" height="64"/>
+                    <color key="backgroundColor" red="0.55686274509803924" green="0.59215686274509804" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="5b9-3B-zvn"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="ljg-zi-KvW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                    <state key="normal" title="SIGN UP">
+                        <color key="titleColor" red="0.96470588235294119" green="0.94509803921568625" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="GoToSignUpViewController:" destination="-1" eventType="touchUpInside" id="X56-aa-PI9"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAs-40-Gz2">
+                    <rect key="frame" x="76" y="785" width="262" height="17"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALREADY HAVE AN ACCOUNT?  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1z-Az-SZH">
+                            <rect key="frame" x="0.0" y="0.0" width="214" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="214" id="ccV-lC-ign"/>
+                                <constraint firstAttribute="height" constant="17" id="rmj-pi-7UB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                            <color key="textColor" red="0.63137254899999995" green="0.64313725489999995" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOG IN" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fin-7p-br3">
+                            <rect key="frame" x="214" y="0.0" width="48" height="17"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="KyO-Lz-BfO"/>
+                                <constraint firstAttribute="height" constant="17" id="ViQ-vk-NL3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                            <color key="textColor" red="0.55686274509803924" green="0.59215686274509804" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="dca-87-Z3C" appends="YES" id="U4M-Wm-nQR"/>
+                            </connections>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="woI-Bb-DkY" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.903382" id="2jp-fE-S2I"/>
+                <constraint firstItem="8Ci-Bk-aK8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="37t-wd-CT6"/>
+                <constraint firstItem="vAs-40-Gz2" firstAttribute="top" secondItem="woI-Bb-DkY" secondAttribute="bottom" constant="20" id="3Jb-Ie-vaz"/>
+                <constraint firstItem="woI-Bb-DkY" firstAttribute="width" secondItem="VYY-X1-yT5" secondAttribute="width" multiplier="1.25503" id="3mm-q7-Nlf"/>
+                <constraint firstItem="8Ci-Bk-aK8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8k7-7p-jcb"/>
+                <constraint firstItem="woI-Bb-DkY" firstAttribute="top" secondItem="VYY-X1-yT5" secondAttribute="bottom" constant="78.666666666666629" id="FgY-ib-GXY"/>
+                <constraint firstItem="woI-Bb-DkY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="N7g-pS-Rux"/>
+                <constraint firstItem="hNa-NY-NJ2" firstAttribute="centerY" secondItem="8Ci-Bk-aK8" secondAttribute="centerY" id="Q0w-Ks-3hZ"/>
+                <constraint firstAttribute="bottom" secondItem="vAs-40-Gz2" secondAttribute="bottom" constant="94" id="UHk-7d-ag0"/>
+                <constraint firstItem="VYY-X1-yT5" firstAttribute="top" secondItem="851-mR-biH" secondAttribute="bottom" constant="15" id="UsT-Jz-54k"/>
+                <constraint firstItem="woI-Bb-DkY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZLX-AN-SIM"/>
+                <constraint firstItem="woI-Bb-DkY" firstAttribute="height" secondItem="VYY-X1-yT5" secondAttribute="height" multiplier="1.71429" id="cF2-Qo-BiH"/>
+                <constraint firstItem="3D5-SF-xlb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cLP-Hm-DFW"/>
+                <constraint firstItem="VYY-X1-yT5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="d01-p5-HTq"/>
+                <constraint firstItem="vAs-40-Gz2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dw4-NB-H8c"/>
+                <constraint firstItem="hNa-NY-NJ2" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.271205" id="gch-mm-fPb"/>
+                <constraint firstItem="3D5-SF-xlb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="hJx-vg-4fK"/>
+                <constraint firstItem="8Ci-Bk-aK8" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.5625" id="iD6-l6-eKC"/>
+                <constraint firstItem="hNa-NY-NJ2" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.801932" id="ix5-68-cDb"/>
+                <constraint firstItem="hNa-NY-NJ2" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="pRN-v6-TAR"/>
+                <constraint firstItem="851-mR-biH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="s3s-sh-BfM"/>
+                <constraint firstAttribute="trailing" secondItem="8Ci-Bk-aK8" secondAttribute="trailing" id="wbO-u6-1lg"/>
+            </constraints>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="dca-87-Z3C" appends="YES" id="JGm-2l-P1X"/>
+            </connections>
+            <point key="canvasLocation" x="-1.4492753623188408" y="78.348214285714278"/>
+        </view>
+        <tapGestureRecognizer id="dca-87-Z3C">
+            <connections>
+                <action selector="GoToSignInViewController:" destination="-1" id="TQp-FE-23o"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="FFrame" width="414" height="504"/>
+        <image name="Group" width="221.66667175292969" height="162"/>
+        <image name="logo" width="30" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

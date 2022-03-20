@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frame-2" translatesAutoresizingMaskIntoConstraints="NO" id="tUO-kb-b7K">
+                                <rect key="frame" x="2.5" y="248" width="370" height="229.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tUO-kb-b7K" secondAttribute="height" multiplier="369:229" id="wKU-YQ-pXY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silent Moon" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                <rect key="frame" x="0.0" y="537.5" width="375" height="61"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="51"/>
+                                <color key="textColor" red="0.90196078430000004" green="0.90588235289999997" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" name="tabBarColor"/>
+                        <constraints>
+                            <constraint firstItem="tUO-kb-b7K" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5lW-bh-Tqu"/>
+                            <constraint firstItem="tUO-kb-b7K" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="248" id="HFc-nh-isG"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J5q-zJ-gkL"/>
+                            <constraint firstAttribute="trailing" secondItem="GJd-Yh-RWb" secondAttribute="trailing" id="f4p-6f-avy"/>
+                            <constraint firstItem="tUO-kb-b7K" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hiP-s0-kMq"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="tUO-kb-b7K" secondAttribute="bottom" constant="60" id="oVC-jP-IsG"/>
+                            <constraint firstItem="tUO-kb-b7K" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="r1c-Ph-I3B"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="xDt-hJ-K6N"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Frame-2" width="369.5" height="229.5"/>
+        <namedColor name="tabBarColor">
+            <color red="0.55686274509803924" green="0.59215686274509804" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

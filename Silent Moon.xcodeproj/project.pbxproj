@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE208BC026F861BC0057E4A1 /* AirbnbCerealBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE208BBF26F861BC0057E4A1 /* AirbnbCerealBold.ttf */; };
+		BE20FEAE2706C39000E24A3D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE20FEAD2706C39000E24A3D /* Roboto-Regular.ttf */; };
+		BE21001B279B3CF600B55F9E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE21001A279B3CF600B55F9E /* Launch Screen.storyboard */; };
+		BE3586D3278F1A3B000F54E0 /* СourseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3586D1278F1A3B000F54E0 /* СourseDetailsViewController.swift */; };
+		BE3586DB278F2870000F54E0 /* СourseDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3586DA278F2870000F54E0 /* СourseDetailsViewController.xib */; };
+		BE3586E1278F324D000F54E0 /* SecondMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3586DF278F324D000F54E0 /* SecondMusicViewController.swift */; };
+		BE3586E9278F43EE000F54E0 /* WelcomeSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3586E7278F43ED000F54E0 /* WelcomeSleepViewController.swift */; };
+		BE3586EA278F43EE000F54E0 /* WelcomeSleepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3586E8278F43EE000F54E0 /* WelcomeSleepViewController.xib */; };
+		BE3F81292702ECFD004730F0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3F81272702ECFD004730F0 /* SignUpViewController.swift */; };
+		BE3F812A2702ECFD004730F0 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3F81282702ECFD004730F0 /* SignUpViewController.xib */; };
+		BE79376B275E21820032FA78 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE793769275E21820032FA78 /* WelcomeViewController.swift */; };
+		BE79376C275E21820032FA78 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE79376A275E21820032FA78 /* WelcomeViewController.xib */; };
+		BE9E641E2703756800CF7003 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E641C2703756800CF7003 /* SignInViewController.swift */; };
+		BE9E641F2703756800CF7003 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9E641D2703756800CF7003 /* SignInViewController.xib */; };
+		BEBF3A1D279B0C2E00E7CE6A /* PlayOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF3A1B279B0C2E00E7CE6A /* PlayOptionViewController.swift */; };
+		BEBF3A23279B0C5C00E7CE6A /* PlayOptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBF3A21279B0C5C00E7CE6A /* PlayOptionViewController.xib */; };
+		BEBF3A2A279B149C00E7CE6A /* SleepMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF3A29279B149C00E7CE6A /* SleepMusicViewController.swift */; };
+		BEBF3A2D279B14EA00E7CE6A /* SleepMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBF3A2C279B14EA00E7CE6A /* SleepMusicViewController.xib */; };
+		BEBF3A34279B2FD000E7CE6A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF3A32279B2FD000E7CE6A /* MusicViewController.swift */; };
+		BEC25DB4275F29E9006AD479 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC25DB2275F29E9006AD479 /* RemindersViewController.swift */; };
+		BEC43D642784A32400155BA7 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC43D622784A32400155BA7 /* SleepViewController.swift */; };
+		BEC43D752784A36D00155BA7 /* AfsarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC43D732784A36D00155BA7 /* AfsarViewController.swift */; };
+		BEC43D762784A36D00155BA7 /* AfsarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC43D742784A36D00155BA7 /* AfsarViewController.xib */; };
+		BED184AB279081A80055B2FC /* MeditateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED184A9279081A80055B2FC /* MeditateViewController.swift */; };
+		BED184AC279081A80055B2FC /* MeditateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED184AA279081A80055B2FC /* MeditateViewController.xib */; };
+		BED184B32790A82C0055B2FC /* SleepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED184B22790A82C0055B2FC /* SleepViewController.xib */; };
+		BEDDA4C0279BC22300E1CE3C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BEDDA4BF279BC22300E1CE3C /* SnapKit */; };
+		BEDDA4C4279BCA3800E1CE3C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDA4C3279BCA3800E1CE3C /* Extension.swift */; };
+		BEDE21CD26F79E6600628829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE21CC26F79E6600628829 /* AppDelegate.swift */; };
+		BEDE21D626F79E6800628829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDE21D526F79E6800628829 /* Assets.xcassets */; };
+		BEDE21E626F79F7000628829 /* SignInSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE21E426F79F7000628829 /* SignInSignUpViewController.swift */; };
+		BEDE21E726F79F7000628829 /* SignInSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDE21E526F79F7000628829 /* SignInSignUpViewController.xib */; };
+		BEE97AFF27808E7100CA666F /* RemindersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE97AFE27808E7100CA666F /* RemindersViewController.xib */; };
+		BEE97B082780932E00CA666F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE97B062780932E00CA666F /* HomeViewController.swift */; };
+		BEE97B092780932E00CA666F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE97B072780932E00CA666F /* HomeViewController.xib */; };
+		BEFDB052275E9AD500DF1F89 /* ChooseTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDB050275E9AD500DF1F89 /* ChooseTopicViewController.swift */; };
+		BEFDB053275E9AD500DF1F89 /* ChooseTopicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFDB051275E9AD500DF1F89 /* ChooseTopicViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE208BBF26F861BC0057E4A1 /* AirbnbCerealBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirbnbCerealBold.ttf; sourceTree = "<group>"; };
+		BE20FEAD2706C39000E24A3D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BE21001A279B3CF600B55F9E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BE3586D1278F1A3B000F54E0 /* СourseDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "СourseDetailsViewController.swift"; sourceTree = "<group>"; };
+		BE3586DA278F2870000F54E0 /* СourseDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "СourseDetailsViewController.xib"; sourceTree = "<group>"; };
+		BE3586DF278F324D000F54E0 /* SecondMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondMusicViewController.swift; sourceTree = "<group>"; };
+		BE3586E7278F43ED000F54E0 /* WelcomeSleepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSleepViewController.swift; sourceTree = "<group>"; };
+		BE3586E8278F43EE000F54E0 /* WelcomeSleepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeSleepViewController.xib; sourceTree = "<group>"; };
+		BE3F81272702ECFD004730F0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BE3F81282702ECFD004730F0 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		BE793769275E21820032FA78 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BE79376A275E21820032FA78 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		BE9E641C2703756800CF7003 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BE9E641D2703756800CF7003 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		BEBF3A1B279B0C2E00E7CE6A /* PlayOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOptionViewController.swift; sourceTree = "<group>"; };
+		BEBF3A21279B0C5C00E7CE6A /* PlayOptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayOptionViewController.xib; path = ../../../silentMoon/silentMoon/playOption/PlayOptionViewController.xib; sourceTree = "<group>"; };
+		BEBF3A29279B149C00E7CE6A /* SleepMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepMusicViewController.swift; sourceTree = "<group>"; };
+		BEBF3A2C279B14EA00E7CE6A /* SleepMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SleepMusicViewController.xib; sourceTree = "<group>"; };
+		BEBF3A32279B2FD000E7CE6A /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		BEC25DB2275F29E9006AD479 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		BEC43D622784A32400155BA7 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		BEC43D732784A36D00155BA7 /* AfsarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfsarViewController.swift; sourceTree = "<group>"; };
+		BEC43D742784A36D00155BA7 /* AfsarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfsarViewController.xib; sourceTree = "<group>"; };
+		BED184A9279081A80055B2FC /* MeditateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeditateViewController.swift; sourceTree = "<group>"; };
+		BED184AA279081A80055B2FC /* MeditateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeditateViewController.xib; sourceTree = "<group>"; };
+		BED184B22790A82C0055B2FC /* SleepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SleepViewController.xib; path = ../../../silentMoon/silentMoon/sleep/SleepViewController.xib; sourceTree = "<group>"; };
+		BEDDA4C3279BCA3800E1CE3C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		BEDE21C926F79E6600628829 /* Silent Moon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silent Moon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDE21CC26F79E6600628829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEDE21D526F79E6800628829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEDE21DA26F79E6800628829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDE21E426F79F7000628829 /* SignInSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSignUpViewController.swift; sourceTree = "<group>"; };
+		BEDE21E526F79F7000628829 /* SignInSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInSignUpViewController.xib; sourceTree = "<group>"; };
+		BEE97AFE27808E7100CA666F /* RemindersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemindersViewController.xib; sourceTree = "<group>"; };
+		BEE97B062780932E00CA666F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BEE97B072780932E00CA666F /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BEFDB050275E9AD500DF1F89 /* ChooseTopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTopicViewController.swift; sourceTree = "<group>"; };
+		BEFDB051275E9AD500DF1F89 /* ChooseTopicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseTopicViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEDE21C626F79E6600628829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDDA4C0279BC22300E1CE3C /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE208BBB26F8606B0057E4A1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BE20FEAD2706C39000E24A3D /* Roboto-Regular.ttf */,
+				BE208BBF26F861BC0057E4A1 /* AirbnbCerealBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BE3586CF278F1A19000F54E0 /* Course Details */ = {
+			isa = PBXGroup;
+			children = (
+				BE3586DA278F2870000F54E0 /* СourseDetailsViewController.xib */,
+				BE3586D1278F1A3B000F54E0 /* СourseDetailsViewController.swift */,
+			);
+			path = "Course Details";
+			sourceTree = "<group>";
+		};
+		BE3586DE278F3210000F54E0 /* Music V2 */ = {
+			isa = PBXGroup;
+			children = (
+				BE3586DF278F324D000F54E0 /* SecondMusicViewController.swift */,
+			);
+			path = "Music V2";
+			sourceTree = "<group>";
+		};
+		BE3586E6278F4398000F54E0 /* Welcome sleep */ = {
+			isa = PBXGroup;
+			children = (
+				BE3586E7278F43ED000F54E0 /* WelcomeSleepViewController.swift */,
+				BE3586E8278F43EE000F54E0 /* WelcomeSleepViewController.xib */,
+			);
+			path = "Welcome sleep";
+			sourceTree = "<group>";
+		};
+		BE3F81262702ECD3004730F0 /* SignUP */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F81272702ECFD004730F0 /* SignUpViewController.swift */,
+				BE3F81282702ECFD004730F0 /* SignUpViewController.xib */,
+			);
+			path = SignUP;
+			sourceTree = "<group>";
+		};
+		BE793768275E21580032FA78 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				BE793769275E21820032FA78 /* WelcomeViewController.swift */,
+				BE79376A275E21820032FA78 /* WelcomeViewController.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		BE9E641B2703754200CF7003 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				BE9E641C2703756800CF7003 /* SignInViewController.swift */,
+				BE9E641D2703756800CF7003 /* SignInViewController.xib */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		BEBF3A1A279B0C0900E7CE6A /* Play Option */ = {
+			isa = PBXGroup;
+			children = (
+				BEBF3A1B279B0C2E00E7CE6A /* PlayOptionViewController.swift */,
+				BEBF3A21279B0C5C00E7CE6A /* PlayOptionViewController.xib */,
+			);
+			path = "Play Option";
+			sourceTree = "<group>";
+		};
+		BEBF3A28279B146600E7CE6A /* Sleep Music */ = {
+			isa = PBXGroup;
+			children = (
+				BEBF3A29279B149C00E7CE6A /* SleepMusicViewController.swift */,
+				BEBF3A2C279B14EA00E7CE6A /* SleepMusicViewController.xib */,
+			);
+			path = "Sleep Music";
+			sourceTree = "<group>";
+		};
+		BEBF3A31279B2FAE00E7CE6A /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				BEBF3A32279B2FD000E7CE6A /* MusicViewController.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		BEC25DB1275F29C8006AD479 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				BEE97AFE27808E7100CA666F /* RemindersViewController.xib */,
+				BEC25DB2275F29E9006AD479 /* RemindersViewController.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		BEC43D5E2784A2E500155BA7 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				BED184B22790A82C0055B2FC /* SleepViewController.xib */,
+				BEC43D622784A32400155BA7 /* SleepViewController.swift */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		BEC43D5F2784A2EF00155BA7 /* Meditate */ = {
+			isa = PBXGroup;
+			children = (
+				BED184A9279081A80055B2FC /* MeditateViewController.swift */,
+				BED184AA279081A80055B2FC /* MeditateViewController.xib */,
+			);
+			path = Meditate;
+			sourceTree = "<group>";
+		};
+		BEC43D612784A30600155BA7 /* Afsar */ = {
+			isa = PBXGroup;
+			children = (
+				BEC43D732784A36D00155BA7 /* AfsarViewController.swift */,
+				BEC43D742784A36D00155BA7 /* AfsarViewController.xib */,
+			);
+			path = Afsar;
+			sourceTree = "<group>";
+		};
+		BEDDA4C2279BCA1600E1CE3C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDA4C3279BCA3800E1CE3C /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BEDE21C026F79E6600628829 = {
+			isa = PBXGroup;
+			children = (
+				BEDE21CB26F79E6600628829 /* Silent Moon */,
+				BEDE21CA26F79E6600628829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEDE21CA26F79E6600628829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEDE21C926F79E6600628829 /* Silent Moon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEDE21CB26F79E6600628829 /* Silent Moon */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDA4C2279BCA1600E1CE3C /* Extension */,
+				BEDE21CC26F79E6600628829 /* AppDelegate.swift */,
+				BE208BBB26F8606B0057E4A1 /* Fonts */,
+				BEDE21E326F79F3F00628829 /* Start Screen */,
+				BE9E641B2703754200CF7003 /* SignIn */,
+				BE3F81262702ECD3004730F0 /* SignUP */,
+				BE793768275E21580032FA78 /* Welcome */,
+				BEFDB04F275E9AAE00DF1F89 /* Choose Topic */,
+				BEC25DB1275F29C8006AD479 /* Reminders */,
+				BEE97B012780925000CA666F /* Home */,
+				BE3586CF278F1A19000F54E0 /* Course Details */,
+				BEC43D5F2784A2EF00155BA7 /* Meditate */,
+				BE3586DE278F3210000F54E0 /* Music V2 */,
+				BE3586E6278F4398000F54E0 /* Welcome sleep */,
+				BEC43D5E2784A2E500155BA7 /* Sleep */,
+				BEBF3A1A279B0C0900E7CE6A /* Play Option */,
+				BEBF3A28279B146600E7CE6A /* Sleep Music */,
+				BEBF3A31279B2FAE00E7CE6A /* Music */,
+				BEC43D612784A30600155BA7 /* Afsar */,
+				BEDE21DA26F79E6800628829 /* Info.plist */,
+				BEDE21D526F79E6800628829 /* Assets.xcassets */,
+				BE21001A279B3CF600B55F9E /* Launch Screen.storyboard */,
+			);
+			path = "Silent Moon";
+			sourceTree = "<group>";
+		};
+		BEDE21E326F79F3F00628829 /* Start Screen */ = {
+			isa = PBXGroup;
+			children = (
+				BEDE21E426F79F7000628829 /* SignInSignUpViewController.swift */,
+				BEDE21E526F79F7000628829 /* SignInSignUpViewController.xib */,
+			);
+			path = "Start Screen";
+			sourceTree = "<group>";
+		};
+		BEE97B012780925000CA666F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BEE97B062780932E00CA666F /* HomeViewController.swift */,
+				BEE97B072780932E00CA666F /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BEFDB04F275E9AAE00DF1F89 /* Choose Topic */ = {
+			isa = PBXGroup;
+			children = (
+				BEFDB050275E9AD500DF1F89 /* ChooseTopicViewController.swift */,
+				BEFDB051275E9AD500DF1F89 /* ChooseTopicViewController.xib */,
+			);
+			path = "Choose Topic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEDE21C826F79E6600628829 /* Silent Moon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDE21DD26F79E6800628829 /* Build configuration list for PBXNativeTarget "Silent Moon" */;
+			buildPhases = (
+				BEDE21C526F79E6600628829 /* Sources */,
+				BEDE21C626F79E6600628829 /* Frameworks */,
+				BEDE21C726F79E6600628829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Silent Moon";
+			packageProductDependencies = (
+				BEDDA4BF279BC22300E1CE3C /* SnapKit */,
+			);
+			productName = "Silent Moon";
+			productReference = BEDE21C926F79E6600628829 /* Silent Moon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEDE21C126F79E6600628829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BEDE21C826F79E6600628829 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BEDE21C426F79E6600628829 /* Build configuration list for PBXProject "Silent Moon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEDE21C026F79E6600628829;
+			packageReferences = (
+				BEDDA4BE279BC22300E1CE3C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = BEDE21CA26F79E6600628829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEDE21C826F79E6600628829 /* Silent Moon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEDE21C726F79E6600628829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE20FEAE2706C39000E24A3D /* Roboto-Regular.ttf in Resources */,
+				BED184AC279081A80055B2FC /* MeditateViewController.xib in Resources */,
+				BE79376C275E21820032FA78 /* WelcomeViewController.xib in Resources */,
+				BE3586DB278F2870000F54E0 /* СourseDetailsViewController.xib in Resources */,
+				BE9E641F2703756800CF7003 /* SignInViewController.xib in Resources */,
+				BEBF3A23279B0C5C00E7CE6A /* PlayOptionViewController.xib in Resources */,
+				BE3F812A2702ECFD004730F0 /* SignUpViewController.xib in Resources */,
+				BEE97AFF27808E7100CA666F /* RemindersViewController.xib in Resources */,
+				BEDE21E726F79F7000628829 /* SignInSignUpViewController.xib in Resources */,
+				BEFDB053275E9AD500DF1F89 /* ChooseTopicViewController.xib in Resources */,
+				BEE97B092780932E00CA666F /* HomeViewController.xib in Resources */,
+				BEBF3A2D279B14EA00E7CE6A /* SleepMusicViewController.xib in Resources */,
+				BED184B32790A82C0055B2FC /* SleepViewController.xib in Resources */,
+				BE3586EA278F43EE000F54E0 /* WelcomeSleepViewController.xib in Resources */,
+				BEDE21D626F79E6800628829 /* Assets.xcassets in Resources */,
+				BEC43D762784A36D00155BA7 /* AfsarViewController.xib in Resources */,
+				BE21001B279B3CF600B55F9E /* Launch Screen.storyboard in Resources */,
+				BE208BC026F861BC0057E4A1 /* AirbnbCerealBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEDE21C526F79E6600628829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9E641E2703756800CF7003 /* SignInViewController.swift in Sources */,
+				BEC25DB4275F29E9006AD479 /* RemindersViewController.swift in Sources */,
+				BEBF3A2A279B149C00E7CE6A /* SleepMusicViewController.swift in Sources */,
+				BEFDB052275E9AD500DF1F89 /* ChooseTopicViewController.swift in Sources */,
+				BEE97B082780932E00CA666F /* HomeViewController.swift in Sources */,
+				BE3586D3278F1A3B000F54E0 /* СourseDetailsViewController.swift in Sources */,
+				BEC43D752784A36D00155BA7 /* AfsarViewController.swift in Sources */,
+				BE79376B275E21820032FA78 /* WelcomeViewController.swift in Sources */,
+				BE3586E9278F43EE000F54E0 /* WelcomeSleepViewController.swift in Sources */,
+				BEDDA4C4279BCA3800E1CE3C /* Extension.swift in Sources */,
+				BE3F81292702ECFD004730F0 /* SignUpViewController.swift in Sources */,
+				BEC43D642784A32400155BA7 /* SleepViewController.swift in Sources */,
+				BEBF3A34279B2FD000E7CE6A /* MusicViewController.swift in Sources */,
+				BE3586E1278F324D000F54E0 /* SecondMusicViewController.swift in Sources */,
+				BEDE21CD26F79E6600628829 /* AppDelegate.swift in Sources */,
+				BEDE21E626F79F7000628829 /* SignInSignUpViewController.swift in Sources */,
+				BED184AB279081A80055B2FC /* MeditateViewController.swift in Sources */,
+				BEBF3A1D279B0C2E00E7CE6A /* PlayOptionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEDE21DB26F79E6800628829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEDE21DC26F79E6800628829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEDE21DE26F79E6800628829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5CRVUNLL9;
+				INFOPLIST_FILE = "Silent Moon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "team1.Silent-Moon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEDE21DF26F79E6800628829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5CRVUNLL9;
+				INFOPLIST_FILE = "Silent Moon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "team1.Silent-Moon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEDE21C426F79E6600628829 /* Build configuration list for PBXProject "Silent Moon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDE21DB26F79E6800628829 /* Debug */,
+				BEDE21DC26F79E6800628829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDE21DD26F79E6800628829 /* Build configuration list for PBXNativeTarget "Silent Moon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDE21DE26F79E6800628829 /* Debug */,
+				BEDE21DF26F79E6800628829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEDDA4BE279BC22300E1CE3C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEDDA4BF279BC22300E1CE3C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEDDA4BE279BC22300E1CE3C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BEDE21C126F79E6600628829 /* Project object */;
+}
