@@ -1,5 +1,5 @@
 <h1 align="left">Silent-Moon</h1>
-<rp>Silent moon for those who need a meditation app UI interface</rp>
+<rp><b>Silent moon</b> for those who need a meditation app UI interface</rp>
 <h2 align="left">Project characteristics and tech-stack:</h2>
 <ul>
   <li>Tech-stack:
