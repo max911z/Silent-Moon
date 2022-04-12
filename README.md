@@ -8,7 +8,7 @@
       <li>UIKit</li> 
     </ul>
   </li>
- <li>library:
+ <li>Framework:
     <ul>
       <li>SnapKit</li>
     </ul>
